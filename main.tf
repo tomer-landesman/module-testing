@@ -1,6 +1,6 @@
 resource "local_file" "test" {
   filename = "${path.module}/test.txt"
-  content  = "jajaja world!"
+  content  = "ja world!"
 }
 
 resource "null_resource" "null2" {}
